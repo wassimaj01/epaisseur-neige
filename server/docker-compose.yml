@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  tileserver-gl:
+    image: klokantech/tileserver-gl
+    volumes:
+      - ./tileserver-gl/data:/data
+      - ./tileserver-gl/config.json:/config.json
+    ports:
+      - "8080:80"
+    command: ["--config", "/config.json"]
+

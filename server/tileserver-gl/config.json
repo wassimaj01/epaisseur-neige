@@ -1,0 +1,21 @@
+{
+  "options": {
+    "paths": {
+      "root": "data/"
+    }
+  },
+  "data": {
+    "neige4326": {
+      "mbtiles": "neige4326.mbtiles"
+    },
+    "neige4326_2": {
+      "mbtiles": "neige4326_2.mbtiles"
+    },
+    "dem3857": {
+      "mbtiles": "dem3857.mbtiles"
+    },
+    "dem3857_2": {
+      "mbtiles": "dem3857_2.mbtiles"
+    }
+  }
+}
