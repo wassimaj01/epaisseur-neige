@@ -1,6 +1,5 @@
 import React from 'react';
-import './Legend.css'; // Import the CSS file for styling
-
+import './Legend.css'; 
 const Legend = () => {
   return (
     <div className="legend">
@@ -29,7 +28,7 @@ const Legend = () => {
           { range: '-7 - -2.5', color: '#000000' },
           { range: '-2.5 - 2', color: '#555555' },
           { range: '2 - 6', color: '#AAAAAA' },
-          { range: '6 - 10', color: '#FFFFFF', borderColor: '#000000' }, // Add black border to white color
+          { range: '6 - 10', color: '#FFFFFF', borderColor: '#000000' }, 
         ].map((item, index) => (
           <div key={index} className="legend-item">
             <div
@@ -47,7 +46,7 @@ const Legend = () => {
           { range: '-20 - -5', color: '#000000' },
           { range: '-5 - 10', color: '#555555' },
           { range: '10 - 25', color: '#AAAAAA' },
-          { range: '25 - 40', color: '#FFFFFF', borderColor: '#000000' }, // Add black border to white color
+          { range: '25 - 40', color: '#FFFFFF', borderColor: '#000000' }, 
         ].map((item, index) => (
           <div key={index} className="legend-item">
             <div

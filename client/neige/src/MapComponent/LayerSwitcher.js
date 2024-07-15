@@ -1,12 +1,12 @@
 import React from 'react';
-import './LayerSwitcher.css'; // Import the CSS file for styling
+import './LayerSwitcher.css'; 
 
 const LayerSwitcher = ({ layerVisibility, toggleLayerVisibility, minSnowDepth, setMinSnowDepth, maxSnowDepth, setMaxSnowDepth }) => {
   return (
     <div className="layer-switcher">
       <h4>Layer Control</h4>
       <div>
-        <label>Min Snow Depth: {minSnowDepth} cm</label>
+        <label>Min Snow Depth: {minSnowDepth} </label>
         <input
           type="range"
           min="0"
@@ -16,7 +16,7 @@ const LayerSwitcher = ({ layerVisibility, toggleLayerVisibility, minSnowDepth, s
         />
       </div>
       <div>
-        <label>Max Snow Depth: {maxSnowDepth} cm</label>
+        <label>Max Snow Depth: {maxSnowDepth} </label>
         <input
           type="range"
           min="0"
