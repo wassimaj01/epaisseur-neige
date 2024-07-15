@@ -4,7 +4,7 @@ import './Legend.css'; // Import the CSS file for styling
 const Legend = () => {
   return (
     <div className="legend">
-      <h4>Snow Depth (cm)</h4>
+      <h4>Snow Depth </h4>
       <div className="legend-section">
         {[
           { range: '0 - 4', color: '#0c2c84' },
@@ -23,7 +23,7 @@ const Legend = () => {
         ))}
       </div>
 
-      <h4>Elevation (m) - dem3857_2</h4>
+      <h4>Elevation  - dem3857_2</h4>
       <div className="legend-section">
         {[
           { range: '-7 - -2.5', color: '#000000' },
@@ -41,7 +41,7 @@ const Legend = () => {
         ))}
       </div>
 
-      <h4>Elevation (m) - dem3857</h4>
+      <h4>Elevation - dem3857</h4>
       <div className="legend-section">
         {[
           { range: '-20 - -5', color: '#000000' },
