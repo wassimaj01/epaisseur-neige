@@ -1,6 +1,6 @@
 
 ```markdown
-# Projet Profondeur de Neige
+# Projet Epaisseur de neige
 
 Ce projet est une application full stack construite avec React pour le frontend et Express pour le backend. Il vise à fournir une visualisation cartographique des informations sur l'epaisseur de la neige.
 
@@ -17,7 +17,7 @@ Ce projet est une application full stack construite avec React pour le frontend 
 ## Prérequis
 
 - Node.js
-- Docker (pour le backend)
+- Docker (pour le conteneurisation)
 - npm
 
 ## Démarrage
@@ -119,6 +119,6 @@ docker-compose build
 
 ## Contact
 
-Pour toute question ou problème, veuillez contacter [wassimajbari123@gmail.com](mailto:votre-email@example.com).
+Pour toute question ou problème, veuillez contacter [wassimajbari123@gmail.com].
 ```
 
