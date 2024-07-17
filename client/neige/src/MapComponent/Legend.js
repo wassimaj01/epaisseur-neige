@@ -4,7 +4,7 @@ import './Legend.css';
 const Legend = () => {
   return (
     <div className="legend">
-      <h4>Snow Depth (meters)</h4>
+      <h4>Epaisseur de neige (metres)</h4>
       <div className="legend-section">
         {[
           { range: '0', color: '#FF0000' },

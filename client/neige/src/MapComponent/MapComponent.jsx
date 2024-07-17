@@ -58,13 +58,13 @@ const MapComponent = () => {
     'interpolate',
     ['linear'],
     ['get', 'snow_depth'],
-    0, '#FF0000',  // Red for 0 meters
+    0, '#FF0000',  // Rouge
     1, '#FF7F00',  // Orange
-    2, '#FFFF00',  // Yellow
-    3, '#00FF00',  // Green
+    2, '#FFFF00',  // Jaune
+    3, '#00FF00',  // Vert
     4, '#0000FF',  // Blue
-    5, '#4B0082',  // Indigo
-    6, '#9400D3'   // Violet for 6 meters
+    5, '#4B0082',  // Blue ciel
+    6, '#9400D3'   // Violet 
   ];
 
 

@@ -21,8 +21,8 @@ const HoverPopup = ({ hoverInfo }) => {
         fontSize: '12px',
         lineHeight: '1.5'
       }}>
-        <strong>Snow Depth:</strong> {hoverInfo.snow_depth.toFixed(2)} cm<br />
-        <strong>Coordinates:</strong> {hoverInfo.longitude.toFixed(4)}, {hoverInfo.latitude.toFixed(4)}
+        <strong>Epaisseur de neige:</strong> {hoverInfo.snow_depth.toFixed(2)} m<br />
+        <strong>Coordonnées:</strong> {hoverInfo.longitude.toFixed(4)}, {hoverInfo.latitude.toFixed(4)}
       </div>
     </Popup>
   );
