@@ -10,7 +10,7 @@ const LayerSwitcher = ({ layerVisibility, toggleLayerVisibility, minSnowDepth, s
         <input
           type="range"
           min="0"
-          max="14"
+          max="6"
           value={minSnowDepth}
           onChange={(e) => setMinSnowDepth(Number(e.target.value))}
         />
@@ -20,7 +20,7 @@ const LayerSwitcher = ({ layerVisibility, toggleLayerVisibility, minSnowDepth, s
         <input
           type="range"
           min="0"
-          max="14"
+          max="6"
           value={maxSnowDepth}
           onChange={(e) => setMaxSnowDepth(Number(e.target.value))}
         />

@@ -32,7 +32,7 @@ const MapComponent = () => {
 
   // Définir l'état pour les valeurs minimales et maximales de profondeur de neige
   const [minSnowDepth, setMinSnowDepth] = useState(0);
-  const [maxSnowDepth, setMaxSnowDepth] = useState(14);
+  const [maxSnowDepth, setMaxSnowDepth] = useState(6);
 
   // useEffect() pour ajuster les limites de la carte en fonction des données raster
   useEffect(() => {
@@ -58,22 +58,15 @@ const MapComponent = () => {
     'interpolate',
     ['linear'],
     ['get', 'snow_depth'],
-    0, '#0c2c84',   // Bleu foncé
-    4, '#225ea8',
-    8, '#1d91c0',
-    12, '#41b6c4',
-    14, '#7fcdbb' // Blue clair
+    0, '#FF0000',  // Red for 0 meters
+    1, '#FF7F00',  // Orange
+    2, '#FFFF00',  // Yellow
+    3, '#00FF00',  // Green
+    4, '#0000FF',  // Blue
+    5, '#4B0082',  // Indigo
+    6, '#9400D3'   // Violet for 6 meters
   ];
 
-  // Définir l'échelle de taille pour la profondeur de neige
-  const snowSizeScale = [
-    'interpolate',
-    ['linear'],
-    ['get', 'snow_depth'],
-    0, 10,
-    7, 30,
-    14, 50
-  ];
 
   // Gestionnaire de la fonctionnalité Hover
   const onHover = useCallback((event) => {
@@ -135,7 +128,6 @@ const MapComponent = () => {
         <MapLayers
           layerVisibility={layerVisibility}
           snowColorScale={snowColorScale}
-          snowSizeScale={snowSizeScale}
           minSnowDepth={minSnowDepth}
           maxSnowDepth={maxSnowDepth}
         />
